@@ -169,7 +169,7 @@
                     "required": true,
                     "minLength": 1,
                     "maxLength": 10,
-                    "label": "",
+                    "label": null,
                     "item_label": "صورة",
                     "value": [],
                     "fields": [
@@ -181,8 +181,9 @@
                             "label": "صورة البنر",
                             "format": "image",
                             "required": true,
-                            "placeholder": "",
-                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل"
+                            "placeholder": null,
+                            "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
+                            "key": "72590e9b-af27-4fff-b0e7-6442c148f68a"
                         },
                         {
                             "type": "string",
@@ -197,7 +198,8 @@
                             "placeholder": "يمكنك إضافة عنوان بارز هنا...",
                             "hide": false,
                             "minLength": 0,
-                            "maxLength": 100
+                            "maxLength": 100,
+                            "key": "eb3cf3ed-f63d-4a96-831e-7fe6e6c5e2c2"
                         },
                         {
                             "type": "string",
@@ -211,9 +213,28 @@
                             "required": false,
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
-                            "maxLength": 255
+                            "maxLength": 255,
+                            "key": "e830b3b3-436d-40d0-8625-8b984017a856"
+                        },
+                        {
+                            "id": "rich_text",
+                            "key": "65437120-96de-48ce-867f-266523345b28",
+                            "type": "string",
+                            "format": "richtext",
+                            "label": "Rich Text",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Your text here ..",
+                            "icon": "sicon-touch-type",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": false,
+                            "minLength": 60,
+                            "maxLength": 1000,
+                            "defaulted": true
                         }
-                    ]
+                    ],
+                    "key": "b90f25da-3693-4d0b-aaef-e30de881a87b"
                 }
             ]
         },
