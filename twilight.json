@@ -183,7 +183,7 @@
                             "required": true,
                             "placeholder": null,
                             "description": "* المقاس المناسب للصورة هو 900×600 بكسل",
-                            "key": "72590e9b-af27-4fff-b0e7-6442c148f68a"
+                            "key": "1185ea99-b7b2-45b7-85ff-fcd456682223"
                         },
                         {
                             "type": "string",
@@ -199,7 +199,7 @@
                             "hide": false,
                             "minLength": 0,
                             "maxLength": 100,
-                            "key": "eb3cf3ed-f63d-4a96-831e-7fe6e6c5e2c2"
+                            "key": "0f60a38a-9014-4d8a-a46e-3e865b45870f"
                         },
                         {
                             "type": "string",
@@ -214,14 +214,14 @@
                             "placeholder": "يمكنك إضافة تفاصيل إضافية هنا",
                             "minLength": 0,
                             "maxLength": 255,
-                            "key": "e830b3b3-436d-40d0-8625-8b984017a856"
+                            "key": "7bb35c09-e890-4972-aa3c-b6c141220432"
                         },
                         {
-                            "id": "rich_text",
-                            "key": "65437120-96de-48ce-867f-266523345b28",
+                            "id": "st_images",
+                            "key": "565e64d2-633b-4cd9-98c5-a3e897aa8a57",
                             "type": "string",
                             "format": "richtext",
-                            "label": "Rich Text",
+                            "label": "ST images",
                             "description": null,
                             "labelHTML": null,
                             "placeholder": "Your text here ..",
@@ -230,11 +230,10 @@
                             "multilanguage": false,
                             "required": false,
                             "minLength": 60,
-                            "maxLength": 1000,
-                            "defaulted": true
+                            "maxLength": 1000
                         }
                     ],
-                    "key": "b90f25da-3693-4d0b-aaef-e30de881a87b"
+                    "key": "6e6735ff-0392-4b4b-a44e-b891afbef91b"
                 }
             ]
         },
